@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>sidebar - site teste</title>
+</head>
+<body>
+    <main class="container">
+        <aside class="sidebar ativa" id="sidebar">
+            <header>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.afRMfSN7SzBLUXTpw8TGJgHaGM&pid=Api&P=0&h=180" alt="img">
+                <span>Gustavo Sousa</span>
+                <button id="btn-menu"><i class="fa-solid fa-bars "></i></button>
+            </header>
+            <nav>
+                <button class="items btn-ativo">
+                    <i class="fa-solid fa-house"></i></i>
+                    <span>Home</span>
+                </button>
+
+                <button class="items btn-desativo">
+                    <i class="fa-solid fa-hashtag"></i></i>
+                    <span>Explorar</span>
+                </button>
+
+                <button class="items btn-desativo">
+                    <i class="fa-solid fa-envelope"></i></i>
+                    <span>Mensagens</span>
+                </button>
+
+                <button class="items btn-desativo">
+                    <i class="fa-solid fa-bell"></i></i>
+                    <span>Notificações</span>
+                </button>
+
+                <button class="items btn-desativo">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <span>Salvos</span>
+                </button>
+                
+                <button class="items btn-desativo">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <span>Mais</span>
+                </button>
+            </nav>
+        </aside>
+
+
+
+        <section class="principal" id="principal">
+            <div class="coluna">
+                <div class="post">
+                    <header>
+                        <img class="img-usuario" src="https://conteudo.imguol.com.br/blogs/174/files/2018/05/iStock-648229868-1024x909.jpg" alt="foto de perfil">
+                        <span class="nome-usuario">Gilmario Lima</span>
+                    </header>
+                    <main class="conteudo-post">
+                        <img src="https://www.bonde.com.br/api/images/proxy?src=https://www.bonde.com.br/img/bondenews/2019/12/img_1_2_2424.jpg" alt="imagem do post">
+                    </main>
+                    <footer>
+                        <a href="#">Curtir</a>
+                        <a href="#">Repostar</a>
+                    </footer>
+                </div>
+
+
+                <div class="post">
+                    <header>
+                        <img class="img-usuario" src="https://conteudo.imguol.com.br/blogs/174/files/2018/05/iStock-648229868-1024x909.jpg" alt="foto de perfil">
+                        <span class="nome-usuario">Gilmario Lima</span>
+                    </header>
+                    <main class="conteudo-post">
+                        <img src="https://i.pinimg.com/originals/ee/f3/43/eef343b04cbea4d33af7e7c63909b78e.jpg" alt="imagem do post">
+                    </main>
+                    <footer>
+                        <a href="#">Curtir</a>
+                        <a href="#">Repostar</a>
+                    </footer>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
