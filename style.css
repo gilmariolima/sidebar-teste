@@ -20,6 +20,9 @@ body{
     min-height: 100vh;
 }
 
+i{
+    user-select: none;
+}
 .coluna{
     width: 100%;
     max-width: 400px;
