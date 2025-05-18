@@ -12,7 +12,7 @@ btnMenu.addEventListener("click", function(){
         sidebar.classList.remove("ativa")
         sidebar.classList.add("desativa")
 
-        principal.style.marginLeft = "100px"
+        principal.style.marginLeft = "80px"
         span.forEach(item=>{item.style.display = "none"})
         button.forEach(item=>{item.style.justifyContent = "center"})
         
@@ -22,6 +22,7 @@ btnMenu.addEventListener("click", function(){
 
         principal.style.marginLeft = "250px"
         button.forEach(item => item.style.justifyContent = "flex-start");
+        setTimeout(function(){ span.forEach(item => item.style.display = "flex");}, 400);
     }
 })
 
