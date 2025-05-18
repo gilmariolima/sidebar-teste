@@ -191,13 +191,17 @@ body{
 
 @media (max-width: 600px){
     .sidebar{
-        width: 100px;
-        padding: 15px 10px 10px 10px;
+        width: 80px;
+        padding: 15px;
 
         header{
             align-items: center;
             justify-content: center
         };
+    }
+
+    .items{
+        padding: 10px 0;
     }
 
     #btn-menu{
