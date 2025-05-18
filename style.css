@@ -210,7 +210,7 @@ body{
     .principal{
         margin-left: 80px;
     }
-    span{
+    .textoSide{
         display: none;
     }
     button{
